@@ -400,6 +400,7 @@ blockquote {
 
 .section.portfolio.gray {
   padding-top: 100px;
+  padding-bottom: 60px;
   background-color: #1c1c1c;
 }
 
@@ -2916,6 +2917,8 @@ blockquote {
   display: flex;
   overflow: hidden;
   height: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -2934,9 +2937,9 @@ blockquote {
 .homepage-div {
   height: 300px;
   border-radius: 5px;
-  background-image: url('../images/pizaaa.jpg');
-  background-position: 50% 0px;
-  background-size: 831px;
+  background-image: url('../images/p2.jpg');
+  background-position: 50% 0%;
+  background-size: cover;
 }
 
 .homepage-div._2 {
@@ -2958,13 +2961,15 @@ blockquote {
 }
 
 .homepage-div._5 {
-  background-image: url('../images/sabr-800.jpg');
-  background-position: 0px 0px;
+  background-image: url('../images/p3.jpg');
+  background-position: 50% 0%;
+  background-size: cover;
 }
 
 .homepage-div._6 {
-  background-image: url('../images/photo-800.jpg');
-  background-position: 50% 0px;
+  background-image: url('../images/p4.jpg');
+  background-position: 50% 0%;
+  background-size: cover;
 }
 
 .homepage-div._7 {
@@ -2993,8 +2998,9 @@ blockquote {
 }
 
 .homepage-div.perfected {
-  background-image: url('../images/kkj.jpg');
-  background-position: 0px 50%;
+  background-image: url('../images/p1.jpg');
+  background-position: 50% 0%;
+  background-size: cover;
 }
 
 .home-layouts {
